@@ -16,13 +16,11 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // Kalau URL sudah pakai locale (/id atau /en), biarkan
   if (/^\/(?:id|en)(?:\/|$)/.test(pathname)) {
     return NextResponse.next();
   }
 
-  // Default redirect ke /id
-  return NextResponse.redirect(new URL(`/id${pathname}`, request.url));
+  return NextResponse.redirect(new URL(`/id${pathname}`, request.url), 308);
 }
 
 export const config = {

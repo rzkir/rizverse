@@ -5,7 +5,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: "/private/",
     },
-    sitemap: "https://rizverse.my.id/sitemap.xml",
+    sitemap: "https://rizverse.biz.id/sitemap.xml",
   };
 }

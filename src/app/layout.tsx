@@ -21,9 +21,7 @@ import { cookies, headers } from 'next/headers'
 export { metadata };
 interface RootLayoutProps {
   children: React.ReactNode;
-  params?: Promise<{
-    locale: string;
-  }>;
+  params?: Promise<{ locale?: string }>;
 }
 
 export default async function RootLayout({

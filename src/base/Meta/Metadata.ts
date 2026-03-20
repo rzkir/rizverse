@@ -9,9 +9,9 @@ export const viewport = {
 };
 
 export const metadata = {
-  title: "Rizverse - Platform Anime, Donghua, Manga & Film Terdepan",
+  title: "Rizverse - Platform Streaming Terdepan",
   description:
-    "Rizverse adalah platform entertainment terdepan yang menghadirkan ribuan judul anime, donghua, manga, dan film berkualitas tinggi. Download aplikasi mobile dan desktop kami untuk pengalaman streaming terbaik.",
+    "Rizverse adalah platform streaming terdepan yang menghadirkan ribuan judul anime, donghua, manga, dan film berkualitas tinggi. Download aplikasi mobile dan desktop kami untuk pengalaman streaming terbaik.",
 
   authors: [{ name: "Rizverse" }],
 
@@ -22,6 +22,8 @@ export const metadata = {
     "Donghua Streaming",
     "Manga Reader",
     "Film Streaming",
+    "Streaming Platform",
+    "Drachin",
     "Entertainment Platform",
     "Anime App",
     "Donghua App",
